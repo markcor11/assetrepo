@@ -2,5 +2,8 @@
   "name": "A Hello World JSON file",
   "description": "Just some sample JSON.",
   "title":"Hello World",
-  "type": "test"
+  "type": "test",
+  "tags": [
+              "mark:testing"
+          ],
 }
