@@ -5,9 +5,9 @@
     "type": "analytics",
     "visualizations": [
         {
-        "id":"1",
-			  "title": "Some categories",
-			  "component": "vida-pie",
+            "id":"1",
+ 	    "title": "Some categories",
+	    "component": "vida-pie",
             "results_path": ".aggregations.SomeAggregation.buckets",
             "vizprops": {
                 "visualization.padding.left":"20px",
@@ -22,7 +22,7 @@
                 "widget.legend.splitter": "false",
                 "widget.legend.titleVisible": "false"
              },
-  			"mapping": {  "categories": "key", "values": "doc_count"  },
+  	    "mapping": {  "categories": "key", "values": "doc_count"  },
             "elasticSearch": {
                 "index": "demo-anomaly",
                 "size": 0,
@@ -35,6 +35,6 @@
                     }
                 }
            }
-		  }
-	]
+	}
+    ]
 }
