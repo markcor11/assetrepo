@@ -8,33 +8,7 @@
             "id":"1",
  	    "title": "Some categories",
 	    "component": "vida-pie",
-            "results_path": ".aggregations.SomeAggregation.buckets",
-            "vizprops": {
-                "visualization.padding.left":"20px",
-                "visualization.padding.right":"20px",
-                "visualization.padding.top":"20px",
-                "visualization.padding.bottom":"20px",
-                "donut.hole.radius": "0.6",
-                "contrast.label.color": true,
-                "itemAxis.title":"Categories",
-                "valueAxis.title":"Quantity",
-                "widget.legend.position": "right",
-                "widget.legend.splitter": "false",
-                "widget.legend.titleVisible": "false"
-             },
-  	    "mapping": {  "categories": "key", "values": "doc_count"  },
-            "elasticSearch": {
-                "index": "demo-anomaly",
-                "size": 0,
-                "aggs": {
-                    "RiskAggregation": {
-                        "terms": {
-                            "field": "data.Risk.keyword",
-                            "size": 3
-                        }
-                    }
-                }
-           }
+            "results_path": ".aggregations.SomeAggregation.buckets"
 	}
     ]
 }
