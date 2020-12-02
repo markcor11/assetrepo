@@ -1,4 +1,5 @@
 {
   "name": "A Hello World JSON file",
+  "description": "Just some sample JSON",
   "title":"Hello World"
 }
