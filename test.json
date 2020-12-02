@@ -1,7 +1,6 @@
 {
   "name": "A Hello World JSON file",
-  "description": "Just some sample JSON",
-  "sourceID": "repostore-2",
+  "description": "Just some sample JSON.",
   "title":"Hello World",
-  "type": "testing"
+  "type": "test"
 }
