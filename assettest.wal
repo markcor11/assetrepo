@@ -1,0 +1,13 @@
+defVar --name pass --type String
+defVar --name con --type EmailConnection
+defVar --name eMessage --type EmailMessage
+defVar --name subject --type String
+defVar --name body --type String
+defVar --name from --type String
+defVar --name to --type List --innertype String
+defVar --name cc --type List --innertype String
+defVar --name bcc --type List --innertype String
+defVar --name date --type DateTime
+defVar --name headers --type StringDictionary --innertype String
+defVar --name categories --type List --innertype String
+defVar --name emailCount --type Numeric
