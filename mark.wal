@@ -1,0 +1,6 @@
+defVar --name to --type List --innertype String
+defVar --name cc --type List --innertype String
+defVar --name bcc --type List --innertype String
+defVar --name date --type DateTime
+defVar --name headers --type StringDictionary --innertype String
+defVar --name categories --type List --innertype String
