@@ -1,0 +1,42 @@
+®defVar --name peopleExcelPath --type String
+defVar --name fileInUse --type Boolean
+defVar --name fileExists --type Boolean
+defVar --name fileName --type String
+defVar --name excelFile --type Excel
+defVar --name peopleTable --type DataTable
+defVar --name currentRow --type Numeric
+defVar --name firstName --type String
+defVar --name lastName --type String
+defVar --name country --type String
+defVar --name State --type String
+defVar --name City --type String
+defVar --name Email --type String
+defVar --name dob --type DateTime
+defVar --name excelEpoch --type DateTime
+defVar --name dobExcelFloat --type Numeric
+defVar --name dobExcelDays --type Numeric
+selectFile --title "Select the \'People\' Excel" --filter "*xlsx" peopleExcelPath=value
+ifFile --file "${peopleExcelPath}" fileExists=value
+if --left "${fileExists}" --operator "Is_True" --negate 
+logMessage --message "${peopleExcelPath} does not Exist!" --type "Error"
+stopExecution
+endIf
+getFileInfo --path "${peopleExcelPath}" fileName=name
+isFileInUse --file "${peopleExcelPath}" fileInUse=value
+if --left "${fileInUse}" --operator "Is_True"
+logMessage --message "${fileName} is currently in use, so WDG can\'t use it." --type "Error"
+stopExecution
+endIf
+excelOpen --file "${peopleExcelPath}" excelFile=value
+excelGetTable --file ${excelFile} --getfirstsheet  --entiretable  --hasheaders  peopleTable=value
+for --variable ${currentRow} --from 1 --to ${peopleTable.Rows} --step 1
+mapTableRow --dataTable ${peopleTable} --row ${currentRow} --mappings "name=First Name=${firstName},name=Last Name=${lastName},name=Country=${country},name=State=${State},name=City=${City},name=Email=${Email},name=DOB=${dobExcelFloat}"
+goSub --label convertExcelDateToWDGDate
+logMessage --message "Row: ${currentRow}\r\n\r\n${firstName} - ${lastName} - ${country} - ${City} - ${State} - ${Email} - ${dob}" --type "Info"
+next
+excelClose --file ${excelFile} --save 
+beginSub --name convertExcelDateToWDGDate
+textToDateTime --text "1899-12-30" --culture "enUS" excelEpoch=value
+truncateNumber --value ${dobExcelFloat} --type "IntegerPart" dobExcelDays=value
+addToDateTime --date "${excelEpoch}" --value ${dobExcelDays} --type "Days" dob=value
+endSub*20.5.1.0
