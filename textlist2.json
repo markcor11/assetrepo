@@ -1,8 +1,8 @@
 {
-       prefix: 'ArrowUp32',
-       metric: '1.6',
-       suffix: '%',
-       sub_text: 'Subtext',
-       footer_1: 'Footer1',
-       footer_2: 'Footer2'
+       "prefix": "ArrowUp32",
+       "metric": "1.6",
+       "suffix": "%",
+       "sub_text": "Subtext",
+       "footer_1": "Footer1",
+       "footer_2": "Footer2"
 }
