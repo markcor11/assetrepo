@@ -1,9 +1,9 @@
 {
-  headers: [
+  'headers': [
     'project_name',
     'last_updated_time'
   ],
-  rows: [
+  'rows': [
     {
       'project_name': 'Improving customer online registration',
       'last_updated_time': '2 min ago'
