@@ -1,11 +1,16 @@
 {
-  "rows": [ {
-      label: "label1",
-      sub_text: "lanbel1"
+  rows: [
+    {
+      label: 'Data virtualization',
+      value: 'dv'
     },
     {
-      label: "label2",
-      sub_text: "lanbel2"
+      label: 'Watson assistant',
+      value: 'assistant'
+    },
+    {
+      label: 'Watson openscale',
+      value: 'aios'
     }
-   ]
+  ]
 }
