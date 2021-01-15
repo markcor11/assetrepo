@@ -1,27 +1,33 @@
 {
   "headers": [
-    "project_name",
+    "asset_name",
+    "asset_type",
     "last_updated_time"
   ],
   "rows": [
     {
-      "project_name": "Improving customer online registration",
+      "asset_name": "Swagger Petstore",
+      "asset_type":"OpenAPI",
       "last_updated_time": "2 min ago"
     },
     {
-      "project_name": "2020 Q1_Increasing Search performance and..",
+      "asset_name": "DataType.json",
+      "asset_type":"JSON Schema",
       "last_updated_time": "30 min ago"
     },
     {
-      "project_name": "2019 Customer shoes sales analysis",
+      "asset_name": "schema.yaml",
+       "asset_type":"Ope API",
       "last_updated_time": "1 hour ago"
     },
     {
-      "project_name": "Project X Final version",
+      "asset_name": "OrderApprovalBot",
+      "asset_type":"WAL Script",
       "last_updated_time": "Today 11:04 PM"
     },
     {
-      "project_name": "Project X Final version 2",
+      "asset_name": "modelObject.json",
+      "asset_type":"JSON Schema",
       "last_updated_time": "Yesterday 12:45 AM"
     }
   ]
