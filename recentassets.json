@@ -6,6 +6,7 @@
   "rows": [
     {
       "asset_name": "Swagger Petstore",
+      "sub_text": "Since last month",
       "label": "Something",
       "last_updated_time": "2 min ago",
       "value_icon": "ArrowUp32",
