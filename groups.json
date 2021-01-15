@@ -1,18 +1,18 @@
 {
   "data_array": [{
-			"group": "Paid1",
+			"group": "RPA Bot",
 			"value": 200
 		},
 		{
-			"group": "Due",
+			"group": "AVRO Schema",
 			"value": 650
 		},
 		{
-			"group": "Overdue",
+			"group": "OpenAPI",
 			"value": 7500
 		},
 		{
-			"group": "Rejected",
+			"group": "Documents",
 			"value": 1200
 		}
 	]
