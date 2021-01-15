@@ -1,0 +1,12 @@
+{
+  "rows": [ 
+      {
+       "prefix": "ArrowUp32",
+       "metric": "1.6",
+       "suffix": "%",
+       "sub_text": "Since last month",
+       "footer_1": "867 Total vulnerabilities",
+       "footer_2": "AskPQL 2.3 package most at risk"
+       }
+   ]
+}
