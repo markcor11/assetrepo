@@ -1,16 +1,28 @@
 {
+  headers: [
+    'project_name',
+    'last_updated_time'
+  ],
   rows: [
     {
-      label: 'Data virtualization',
-      value: 'dv'
+      'project_name': 'Improving customer online registration',
+      'last_updated_time': '2 min ago'
     },
     {
-      label: 'Watson assistant',
-      value: 'assistant'
+      'project_name': '2020 Q1_Increasing Search performance and..',
+      'last_updated_time': '30 min ago'
     },
     {
-      label: 'Watson openscale',
-      value: 'aios'
+      'project_name': '2019 Customer shoes sales analysis',
+      'last_updated_time': '1 hour ago'
+    },
+    {
+      'project_name': 'Project X Final version',
+      'last_updated_time': 'Today 11:04 PM'
+    },
+    {
+      'project_name': 'Project X Final version 2',
+      'last_updated_time': 'Yesterday 12:45 AM'
     }
   ]
 }
