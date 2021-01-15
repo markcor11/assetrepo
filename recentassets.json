@@ -7,7 +7,10 @@
     {
       "asset_name": "Swagger Petstore",
       "label": "Something",
-      "last_updated_time": "2 min ago"
+      "last_updated_time": "2 min ago",
+      "value_icon": "ArrowUp32",
+      "value": "25",
+      "value_suffix": "K"
     },
     {
       "asset_name": "DataType.json",
