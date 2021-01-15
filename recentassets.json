@@ -6,27 +6,27 @@
   "rows": [
     {
       "asset_name": "Swagger Petstore",
-      "sub_text": "Something",
+      "label": "Something",
       "last_updated_time": "2 min ago"
     },
     {
       "asset_name": "DataType.json",
-       "sub_text": "Something",
+        "label": "Something",
       "last_updated_time": "30 min ago"
     },
     {
       "asset_name": "schema.yaml",
-       "sub_text": "Something",
+       "label": "Something",
       "last_updated_time": "1 hour ago"
     },
     {
       "asset_name": "OrderApprovalBot",
-       "sub_text": "Something",
+        "label": "Something",
       "last_updated_time": "Today 11:04 PM"
     },
     {
       "asset_name": "modelObject.json",
-       "sub_text": "Something",
+        "label": "Something",
       "last_updated_time": "Yesterday 12:45 AM"
     }
   ]
