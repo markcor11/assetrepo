@@ -6,9 +6,8 @@
        "rows": [
               {
               "prefix": "ArrowUp32",
-              "metric": "1.6",
+              "metric": 1.6,
               "suffix": "%",
-              "value": "value",
               "sub_text": "Subtext",
               "footer_1": "Footer1",
               "footer_2": "Footer2"
@@ -17,7 +16,6 @@
                      "prefix": "ArrowUp32",
                      "metric": "1.6",
                      "suffix": "%",
-                     "value": "value2",
                      "sub_text": "Subtext2",
                      "footer_1": "Footer1",
                      "footer_2": "Footer2"
