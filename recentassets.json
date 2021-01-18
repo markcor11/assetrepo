@@ -7,7 +7,6 @@
     {
       "asset_name": "Swagger Petstore",
       "sub_text": "Since last month",
-      "label": "Something",
       "last_updated_time": "2 min ago",
       "value_icon": "ArrowUp32",
       "value": "25",
@@ -15,22 +14,18 @@
     },
     {
       "asset_name": "DataType.json",
-        "label": "Something",
       "last_updated_time": "30 min ago"
     },
     {
       "asset_name": "schema.yaml",
-       "label": "Something",
       "last_updated_time": "1 hour ago"
     },
     {
       "asset_name": "OrderApprovalBot",
-        "label": "Something",
       "last_updated_time": "Today 11:04 PM"
     },
     {
       "asset_name": "modelObject.json",
-        "label": "Something",
       "last_updated_time": "Yesterday 12:45 AM"
     }
   ]
