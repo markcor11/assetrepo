@@ -15,11 +15,9 @@
       "drilldown_url": "https://www.ibm.com"
     },
     {
-      "sub_text": "subtext3",
-      "label": "label3", 
+     
       "button_text": "a button",
-      "button_url": "http:/www.lotus.com",
-      "drilldown_url": "https://www.ibm.com"
+      "button_url": "http:/www.lotus.com"
     },
     {
       "sub_text": "subtext3",
