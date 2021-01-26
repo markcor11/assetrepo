@@ -6,7 +6,6 @@
       "drilldown_url": "https://www.ibm.com"
     },
     {
-      "value": "just a value",
        "label": "MyAPIDocumentation.yaml",
       "sub_text": "Open API Specification",
       "drilldown_url": "/integration/assets/"
@@ -22,9 +21,7 @@
       "drilldown_url": "https://www.ibm.com"
     },
     {
-      "label": "ProcessPDFFile.wal",
-      "sub_text": "Robotic Automation Bot",
-      "drilldown_url": "https://www.ibm.com"
+      "value": "100%"
     }
   ]
 }
