@@ -1,23 +1,23 @@
 {
   "rows": [
     {
-      "label": "ProcessPDFFile.wal",
-      "sub_text": "Robotic Automation Bot",
-      "drilldown_url": "https://www.ibm.com"
-    },
-    {
        "label": "MyAPIDocumentation.yaml",
       "sub_text": "Open API Specification",
       "drilldown_url": "/integration/assets/"
     },
     {
-       "label": "ProcessPDFFile.wal",
+      "label": "ProcessPDFFile.wal",
       "sub_text": "Robotic Automation Bot",
+      "drilldown_url": "https://www.ibm.com"
+    },
+    {
+       "label": "ExcelFile.xls",
+      "sub_text": "Document",
       "drilldown_url": "/integration/assets/"
     },
      {
-       "label": "ProcessPDFFile.wal",
-      "sub_text": "Robotic Automation Bot",
+       "label": "AvroTest.yaml",
+      "sub_text": "Avro Schema",
       "drilldown_url": "https://www.ibm.com"
     },
     {
