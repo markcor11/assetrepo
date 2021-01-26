@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "sub_text": "Subtext1",
+      "value": "Value1",
+      "drilldown_url": "https://www.ibm.com"
+    },
+    {
+      "sub_text": "Subtext1",
+      "value": "Value1",
+      "drilldown_url": "https://www.ibm.com"
+    }
+  ]
+}
