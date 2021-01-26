@@ -13,7 +13,7 @@
     {
        "label": "ProcessPDFFile.wal",
       "sub_text": "Robotic Automation Bot",
-      "drilldown_url": "./integration/assets/"
+      "drilldown_url": "/integration/assets/"
     },
      {
        "label": "ProcessPDFFile.wal",
